@@ -27,5 +27,5 @@ Extension has been tested on the following browser:
 
 # Licence
 
-Asana Comments Expander is licensed under GNU General Public License version 3. See LICENSE file.
+Asana Comments Expander is licensed under GNU General Public License version 3. See [LICENSE](https://github.com/RetroCoder80s/AsanaCommentsExpander/blob/master/LICENSE) file.
 
