@@ -30,12 +30,13 @@ function waitForAddedNode(params) {
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
+        console.log('message = ' + request.message);
         if (request.message === "initializeExpandAction") {
             waitForAddedNode({
-                selector: '.SingleTaskPane',
+                selector: '.SingleTaskPaneSpreadsheet',
                 recursive: true,
                 done: function(el) {
-                    console.log("Expanding!");
+                    console.log("Expanding Comments!");
                     expandAllComments();
                 }
             });
